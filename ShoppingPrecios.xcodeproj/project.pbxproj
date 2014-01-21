@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7312DD9A188C3CEF00AB1C3B /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7312DD99188C3CEF00AB1C3B /* DBManager.m */; };
+		7354658D188C726A008508B9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7354658C188C726A008508B9 /* libxml2.dylib */; };
+		739C2EB1188C74B1009AF668 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C2EB0188C743B009AF668 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7A13DDCD188DA7A00086BB6C /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A13DDCC188DA7A00086BB6C /* Usuario.m */; };
+		7A13DDD0188DA98D0086BB6C /* UsuarioDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A13DDCF188DA98D0086BB6C /* UsuarioDAO.m */; };
+		7A2833BF1887471800B5A398 /* CompetenciaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2833BE1887471800B5A398 /* CompetenciaViewController.m */; };
+		7A42DFA7188DD4D800787D4E /* Competencia.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A42DFA6188DD4D800787D4E /* Competencia.m */; };
+		7A42DFAA188DD63900787D4E /* CompetenciaDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A42DFA9188DD63900787D4E /* CompetenciaDAO.m */; };
+		7A572712188EB7B900B5E24A /* Producto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A572711188EB7B900B5E24A /* Producto.m */; };
+		7A572715188EB7CF00B5E24A /* ProductoDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A572714188EB7CF00B5E24A /* ProductoDAO.m */; };
+		7A6478D01889A5DA00F345BE /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6478CF1889A5DA00F345BE /* WebService.m */; };
 		7AA252971886F51C004ABEB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA252961886F51C004ABEB1 /* UIKit.framework */; };
 		7AA252991886F51C004ABEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA252981886F51C004ABEB1 /* Foundation.framework */; };
 		7AA2529B1886F51C004ABEB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA2529A1886F51C004ABEB1 /* CoreGraphics.framework */; };
@@ -18,9 +29,35 @@
 		7AA252AD1886F51C004ABEB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA252AC1886F51C004ABEB1 /* Default-568h@2x.png */; };
 		7AA252B01886F51C004ABEB1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA252AE1886F51C004ABEB1 /* MainStoryboard.storyboard */; };
 		7AA252B31886F51C004ABEB1 /* ShoppingPreciosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA252B21886F51C004ABEB1 /* ShoppingPreciosViewController.m */; };
+		7AA252BA1886F531004ABEB1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA252B91886F531004ABEB1 /* libsqlite3.dylib */; };
+		7AA252C21887102C004ABEB1 /* ListasDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA252C11887102C004ABEB1 /* ListasDAO.m */; };
+		7AA252C518871074004ABEB1 /* Listas.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA252C418871073004ABEB1 /* Listas.m */; };
+		7AA252C8188717BA004ABEB1 /* ListasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA252C7188717BA004ABEB1 /* ListasViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7312DD98188C3CEF00AB1C3B /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		7312DD99188C3CEF00AB1C3B /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		7312DD9B188C3F5B00AB1C3B /* Definiciones.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definiciones.h; sourceTree = "<group>"; };
+		7354658C188C726A008508B9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		739C2EAF188C743B009AF668 /* GDataXMLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = ../GDataXMLNode.h; sourceTree = "<group>"; };
+		739C2EB0188C743B009AF668 /* GDataXMLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = ../GDataXMLNode.m; sourceTree = "<group>"; };
+		7A13DDCB188DA7A00086BB6C /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
+		7A13DDCC188DA7A00086BB6C /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
+		7A13DDCE188DA98D0086BB6C /* UsuarioDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsuarioDAO.h; sourceTree = "<group>"; };
+		7A13DDCF188DA98D0086BB6C /* UsuarioDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsuarioDAO.m; sourceTree = "<group>"; };
+		7A2833BD1887471800B5A398 /* CompetenciaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetenciaViewController.h; sourceTree = "<group>"; };
+		7A2833BE1887471800B5A398 /* CompetenciaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetenciaViewController.m; sourceTree = "<group>"; };
+		7A42DFA5188DD4D800787D4E /* Competencia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Competencia.h; sourceTree = "<group>"; };
+		7A42DFA6188DD4D800787D4E /* Competencia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Competencia.m; sourceTree = "<group>"; };
+		7A42DFA8188DD63900787D4E /* CompetenciaDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetenciaDAO.h; sourceTree = "<group>"; };
+		7A42DFA9188DD63900787D4E /* CompetenciaDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetenciaDAO.m; sourceTree = "<group>"; };
+		7A572710188EB7B900B5E24A /* Producto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Producto.h; sourceTree = "<group>"; };
+		7A572711188EB7B900B5E24A /* Producto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Producto.m; sourceTree = "<group>"; };
+		7A572713188EB7CF00B5E24A /* ProductoDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductoDAO.h; sourceTree = "<group>"; };
+		7A572714188EB7CF00B5E24A /* ProductoDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductoDAO.m; sourceTree = "<group>"; };
+		7A6478CE1889A5DA00F345BE /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		7A6478CF1889A5DA00F345BE /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
 		7AA252931886F51C004ABEB1 /* ShoppingPrecios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingPrecios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA252961886F51C004ABEB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7AA252981886F51C004ABEB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +74,13 @@
 		7AA252AF1886F51C004ABEB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7AA252B11886F51C004ABEB1 /* ShoppingPreciosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingPreciosViewController.h; sourceTree = "<group>"; };
 		7AA252B21886F51C004ABEB1 /* ShoppingPreciosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingPreciosViewController.m; sourceTree = "<group>"; };
+		7AA252B91886F531004ABEB1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7AA252C01887102C004ABEB1 /* ListasDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListasDAO.h; sourceTree = "<group>"; };
+		7AA252C11887102C004ABEB1 /* ListasDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListasDAO.m; sourceTree = "<group>"; };
+		7AA252C318871073004ABEB1 /* Listas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Listas.h; sourceTree = "<group>"; };
+		7AA252C418871073004ABEB1 /* Listas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Listas.m; sourceTree = "<group>"; };
+		7AA252C6188717BA004ABEB1 /* ListasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListasViewController.h; sourceTree = "<group>"; };
+		7AA252C7188717BA004ABEB1 /* ListasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListasViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7354658D188C726A008508B9 /* libxml2.dylib in Frameworks */,
+				7AA252BA1886F531004ABEB1 /* libsqlite3.dylib in Frameworks */,
 				7AA252971886F51C004ABEB1 /* UIKit.framework in Frameworks */,
 				7AA252991886F51C004ABEB1 /* Foundation.framework in Frameworks */,
 				7AA2529B1886F51C004ABEB1 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +99,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73077DBA188CAFF300C53054 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				739C2EAF188C743B009AF668 /* GDataXMLNode.h */,
+				739C2EB0188C743B009AF668 /* GDataXMLNode.m */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		73077DBB188CB35C00C53054 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				7AA252C01887102C004ABEB1 /* ListasDAO.h */,
+				7AA252C11887102C004ABEB1 /* ListasDAO.m */,
+				7A13DDCE188DA98D0086BB6C /* UsuarioDAO.h */,
+				7A13DDCF188DA98D0086BB6C /* UsuarioDAO.m */,
+				7A42DFA8188DD63900787D4E /* CompetenciaDAO.h */,
+				7A42DFA9188DD63900787D4E /* CompetenciaDAO.m */,
+				7A572713188EB7CF00B5E24A /* ProductoDAO.h */,
+				7A572714188EB7CF00B5E24A /* ProductoDAO.m */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		73077DBC188CB38400C53054 /* BO */ = {
+			isa = PBXGroup;
+			children = (
+				7AA252C318871073004ABEB1 /* Listas.h */,
+				7AA252C418871073004ABEB1 /* Listas.m */,
+				7A13DDCB188DA7A00086BB6C /* Usuario.h */,
+				7A13DDCC188DA7A00086BB6C /* Usuario.m */,
+				7A42DFA5188DD4D800787D4E /* Competencia.h */,
+				7A42DFA6188DD4D800787D4E /* Competencia.m */,
+				7A572710188EB7B900B5E24A /* Producto.h */,
+				7A572711188EB7B900B5E24A /* Producto.m */,
+			);
+			name = BO;
+			sourceTree = "<group>";
+		};
+		7312DD96188C3CC400AB1C3B /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				7312DD98188C3CEF00AB1C3B /* DBManager.h */,
+				7312DD99188C3CEF00AB1C3B /* DBManager.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		7A42DFA2188DC39800787D4E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AA252B11886F51C004ABEB1 /* ShoppingPreciosViewController.h */,
+				7AA252B21886F51C004ABEB1 /* ShoppingPreciosViewController.m */,
+				7AA252C6188717BA004ABEB1 /* ListasViewController.h */,
+				7AA252C7188717BA004ABEB1 /* ListasViewController.m */,
+				7A2833BD1887471800B5A398 /* CompetenciaViewController.h */,
+				7A2833BE1887471800B5A398 /* CompetenciaViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		7A42DFA3188DC3BF00787D4E /* WS */ = {
+			isa = PBXGroup;
+			children = (
+				7A6478CE1889A5DA00F345BE /* WebService.h */,
+				7A6478CF1889A5DA00F345BE /* WebService.m */,
+			);
+			name = WS;
+			sourceTree = "<group>";
+		};
+		7A42DFA4188DC3E500787D4E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7312DD9B188C3F5B00AB1C3B /* Definiciones.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		7AA2528A1886F51C004ABEB1 = {
 			isa = PBXGroup;
 			children = (
+				7AA252B91886F531004ABEB1 /* libsqlite3.dylib */,
 				7AA2529C1886F51C004ABEB1 /* ShoppingPrecios */,
 				7AA252951886F51C004ABEB1 /* Frameworks */,
 				7AA252941886F51C004ABEB1 /* Products */,
@@ -73,6 +198,7 @@
 		7AA252951886F51C004ABEB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7354658C188C726A008508B9 /* libxml2.dylib */,
 				7AA252961886F51C004ABEB1 /* UIKit.framework */,
 				7AA252981886F51C004ABEB1 /* Foundation.framework */,
 				7AA2529A1886F51C004ABEB1 /* CoreGraphics.framework */,
@@ -83,11 +209,16 @@
 		7AA2529C1886F51C004ABEB1 /* ShoppingPrecios */ = {
 			isa = PBXGroup;
 			children = (
+				7A42DFA4188DC3E500787D4E /* Utils */,
+				7A42DFA3188DC3BF00787D4E /* WS */,
+				7A42DFA2188DC39800787D4E /* ViewController */,
+				73077DBC188CB38400C53054 /* BO */,
+				73077DBB188CB35C00C53054 /* DAO */,
+				73077DBA188CAFF300C53054 /* XML */,
+				7312DD96188C3CC400AB1C3B /* DB */,
 				7AA252A51886F51C004ABEB1 /* ShoppingPreciosAppDelegate.h */,
 				7AA252A61886F51C004ABEB1 /* ShoppingPreciosAppDelegate.m */,
 				7AA252AE1886F51C004ABEB1 /* MainStoryboard.storyboard */,
-				7AA252B11886F51C004ABEB1 /* ShoppingPreciosViewController.h */,
-				7AA252B21886F51C004ABEB1 /* ShoppingPreciosViewController.m */,
 				7AA2529D1886F51C004ABEB1 /* Supporting Files */,
 			);
 			path = ShoppingPrecios;
@@ -174,9 +305,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739C2EB1188C74B1009AF668 /* GDataXMLNode.m in Sources */,
 				7AA252A31886F51C004ABEB1 /* main.m in Sources */,
 				7AA252A71886F51C004ABEB1 /* ShoppingPreciosAppDelegate.m in Sources */,
+				7A13DDD0188DA98D0086BB6C /* UsuarioDAO.m in Sources */,
 				7AA252B31886F51C004ABEB1 /* ShoppingPreciosViewController.m in Sources */,
+				7AA252C21887102C004ABEB1 /* ListasDAO.m in Sources */,
+				7AA252C518871074004ABEB1 /* Listas.m in Sources */,
+				7A13DDCD188DA7A00086BB6C /* Usuario.m in Sources */,
+				7AA252C8188717BA004ABEB1 /* ListasViewController.m in Sources */,
+				7A42DFA7188DD4D800787D4E /* Competencia.m in Sources */,
+				7A572712188EB7B900B5E24A /* Producto.m in Sources */,
+				7A2833BF1887471800B5A398 /* CompetenciaViewController.m in Sources */,
+				7A572715188EB7CF00B5E24A /* ProductoDAO.m in Sources */,
+				7A42DFAA188DD63900787D4E /* CompetenciaDAO.m in Sources */,
+				7A6478D01889A5DA00F345BE /* WebService.m in Sources */,
+				7312DD9A188C3CEF00AB1C3B /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +358,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Campos (QJNG45QMR3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Campos (QJNG45QMR3)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -227,7 +372,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -245,13 +390,14 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Campos (QJNG45QMR3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Campos (QJNG45QMR3)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,9 +407,13 @@
 		7AA252B71886F51C004ABEB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Campos (QJNG45QMR3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Campos (QJNG45QMR3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingPrecios/ShoppingPrecios-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				INFOPLIST_FILE = "ShoppingPrecios/ShoppingPrecios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,9 +422,12 @@
 		7AA252B81886F51C004ABEB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Campos (QJNG45QMR3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingPrecios/ShoppingPrecios-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				INFOPLIST_FILE = "ShoppingPrecios/ShoppingPrecios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +452,7 @@
 				7AA252B81886F51C004ABEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
