@@ -342,7 +342,7 @@ static NSString *kCompetencias = @"competenciasAsignada";
                         fechaHora = fechaHorax.stringValue;
                         
                         NSDateFormatter *ConvertFormat;
-                        int *DateTimeConverted;
+                   //     int *DateTimeConverted;
                         
                         ConvertFormat = [[NSDateFormatter alloc] init];
                         [ConvertFormat setDateFormat:@"yyyyMMddHHmmss"];
@@ -418,7 +418,7 @@ static NSString *kCompetencias = @"competenciasAsignada";
             NSLog(@"Autorizado= %@", string);
             
             
-            [DBManager eliminaUsuario:idUsuario];
+         //   [DBManager eliminaUsuario:idUsuario];
         }
         else
         {

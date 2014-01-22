@@ -8,6 +8,7 @@
 
 #import "CompetenciaViewController.h"
 #import "Competencia.h"
+#import "ProductosViewController.h"
 
 @interface CompetenciaViewController ()
 
@@ -38,7 +39,7 @@
     competenciaDAO = [[CompetenciaDAO alloc] init];
     competencias = [[NSMutableArray alloc] init];
     competencias = [competenciaDAO obtenerCompetencias:idLista];
-      [super viewDidLoad];
+    [super viewDidLoad];
 }
 
 
@@ -73,7 +74,8 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{/*
+{
+    /*
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
   
@@ -116,13 +118,16 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+  
+    ProductosViewController *destino = [self.storyboard instantiateViewControllerWithIdentifier:@"product"];
+    
+	Competencia *tmp = [competencias objectAtIndex:[indexPath row]];
+    tmp.idLista =  lista.listaID;
+        
+	destino.competencia = tmp;
+	
+	[self.navigationController pushViewController:destino animated:YES];
+    
 }
 
 @end

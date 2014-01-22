@@ -71,38 +71,6 @@
 - (IBAction)ingresar:(id)sender
 {
     
-     sqlite3_stmt    *statement;
-     const char *dbpath = [_databasePath UTF8String];
-     
-     if (sqlite3_open(dbpath, &_bdshoppingdeprecios) == SQLITE_OK)
-     {
-         NSString *insertSQL = [NSString stringWithFormat:@"INSERT INTO USUARIOS (nombre, password) VALUES (\"%@\", \"%@\")",self.usuario.text, self.clave.text];
-         
-         //        NSString *insertSQL = [NSString stringWithFormat:@"INSERT INTO listas (nombre, competencia) VALUES (\"%@\", 1)",self.usuario.text];
-     
-         //        "SELECT id, nombre_vehiculo, numero_ruedas FROM vehiculo";
-         const char *insert_stmt = [insertSQL UTF8String];
-     
-         sqlite3_prepare_v2(_bdshoppingdeprecios, insert_stmt, -1, &statement, NULL);
-     
-         if (sqlite3_step(statement) == SQLITE_DONE)
-         {
-             self.mensaje.text = @"";
-             self.usuario.text = @"";
-             self.clave.text = @"";
-         }
-         else
-         {
-             self.mensaje.text = @"Error ";
-         }
-     
-         sqlite3_finalize(statement);
-         sqlite3_close(_bdshoppingdeprecios);
-     }
-    
-     
-    ///////////////
-    
     webservice = [[WebService alloc] init];
     BOOL autorizado = [webservice validaUsuario:_usuario.text withDataString: _clave.text];
 
@@ -115,6 +83,16 @@
     {
           NSLog(@"No Autorizado");
     }
+    
+    ///
+    
+ //   self.navigationItem.leftBarButtonItem =
+ //   [[UIBarButtonItem alloc] initWithTitle:mainLib.navCountryTitle style:UIBarButtonItemStyleBordered target:self action:@selector(handleBack:)];
+    
+  //  [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:1] animated:YES];
+    
+ //   [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:1] animated:YES];
+    ////
     
  
 }

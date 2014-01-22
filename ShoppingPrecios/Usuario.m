@@ -11,7 +11,7 @@
 @implementation Usuario
 
 @synthesize idUsuario;
-//@synthesize nombreUsuario;
+@synthesize nombreUsuario;
 
 @synthesize loginUsuario;
 @synthesize clave;

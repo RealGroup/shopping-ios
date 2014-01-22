@@ -23,4 +23,6 @@
         precioAnterior:(NSString *)precioAnterior precioSodimac:(NSString *)precioSodimac precioActual:(NSString *)precioActual mismoPrecio:(NSString *)mismoPrecio
            observacion:(NSString *)observacion encontrado:(NSString *)encontrado fechaHora:(NSString *)fechaHora;
 
+-(NSMutableArray *)listaProductos:(NSInteger)idCompetencia idLista:(NSInteger)idLista;
+
 @end

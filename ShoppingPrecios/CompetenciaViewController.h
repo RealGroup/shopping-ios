@@ -15,11 +15,10 @@
     Listas *lista;
     CompetenciaDAO *competenciaDAO;
     NSMutableArray *competencias;
-    
 }
 
 @property (nonatomic, strong) Listas *lista;
-@property (nonatomic,strong) CompetenciaDAO *competenciaDAO;
+@property (nonatomic, strong) CompetenciaDAO *competenciaDAO;
 @property (nonatomic, strong) NSMutableArray *competencias;
 
 @end
