@@ -57,13 +57,11 @@
     }
     else
     {
-      //  self.mensaje.text = @"Error ";
+        return NO;
     }
     
     sqlite3_finalize(sqlStatement);
-    
-    sqlite3_close(bd);
-    
+    sqlite3_close(bd);    
     
     return YES;
 }
@@ -79,7 +77,12 @@
 		NSLog(@"No se puede conectar con la BD");
 	}
 	
-	const char *sentenciaSQL = "SELECT id_lista, nombre_lista FROM listas";
+    const char *sentenciaSQL = "SELECT LST.ID_LISTA ID_LISTA,LST.NOMBRE_LISTA,count(LST.ID_LISTA) CANTIDAD FROM LISTAS LST,COMPETENCIAS COMP WHERE COMP.ID_LISTA = LST.ID_LISTA AND COMP.ID_SHOPPER = 1 GROUP BY LST.ID_LISTA";
+    
+//      const char *sentenciaSQL = "SELECT LST.ID_LISTA ID_LISTA,LST.NOMBRE_LISTA,count(LST.ID_LISTA) CANTIDAD FROM LISTAS LST,COMPETENCIAS COMP WHERE COMP.ID_LISTA = LST.ID_LISTA AND COMP.ID_SHOPPER = " + currentIdShopper + " GROUP BY LST.ID_LISTA";
+    
+//	const char *sentenciaSQL = "SELECT id_lista, nombre_lista FROM listas";
+    
 	sqlite3_stmt *sqlStatement;
 	
 	if(sqlite3_prepare_v2(bd, sentenciaSQL, -1, &sqlStatement, NULL) != SQLITE_OK)
@@ -92,6 +95,8 @@
 		Listas *listas = [[Listas alloc] init];
 		listas.listaID = sqlite3_column_int(sqlStatement, 0);
 		listas.nombreLista = [NSString stringWithUTF8String:(char *) sqlite3_column_text(sqlStatement, 1)];
+        listas.cantidad    = [NSString stringWithUTF8String:(char *) sqlite3_column_text(sqlStatement, 2)];
+                           
 	//	listas.competenciaID = sqlite3_column_int(sqlStatement, 2);
 		
 		[lista addObject:listas];

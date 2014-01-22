@@ -20,16 +20,17 @@ NSInteger idUsuario;
 NSMutableArray *lista ;
 @synthesize listasDAO;
 @synthesize competenciaDAO;
+@synthesize productoDAO;
 
 - (NSMutableArray *) obtenerListas
 {
 	return lista;
 }
+
 static NSString *kXPath_Item = @"//listasAsiginadas";
 static NSString *kNombre_Lista = @"nombreLista";
 static NSString *kIdLista = @"idLista";
 static NSString *kCompetencias = @"competenciasAsignada";
-
 
 - (BOOL)validaUsuario:(NSString*)usuario withDataString:(NSString *)clave
 {
@@ -326,6 +327,7 @@ static NSString *kCompetencias = @"competenciasAsignada";
                     
                     NSString *encontrado;
                     NSArray *encontrados = [producto elementsForName:@"encontrado"];
+                    
                     if (encontrados.count > 0)
                     {
                         GDataXMLElement *encontradox = (GDataXMLElement *) [encontrados objectAtIndex:0];
@@ -333,11 +335,31 @@ static NSString *kCompetencias = @"competenciasAsignada";
                  	}
                     NSString *fechaHora;
                     NSArray *fechaHoras = [producto elementsForName:@"fechaHora"];
+                    
                     if (fechaHoras.count > 0)
                     {
                         GDataXMLElement *fechaHorax = (GDataXMLElement *) [fechaHoras objectAtIndex:0];
                         fechaHora = fechaHorax.stringValue;
-                 	}
+                        
+                        NSDateFormatter *ConvertFormat;
+                        int *DateTimeConverted;
+                        
+                        ConvertFormat = [[NSDateFormatter alloc] init];
+                        [ConvertFormat setDateFormat:@"yyyyMMddHHmmss"];
+                        
+             //           DateTimeConverted = [ConvertFormat stringFromDate:fechaHora];
+                    
+                    
+                    
+                    }
+                    
+                    productoDAO = [[ProductoDAO alloc] init];
+                    
+                    [productoDAO insertaProducto:idProducto idCompetencia:idcompetencia idLista:idlistav codigoProducto:codigoProducto nombreProducto:nombreProducto descripcionProducto:descripcionProducto precioAnterior:precioAnterior precioSodimac:precioSodimac precioActual:precioActual mismoPrecio:@"0" observacion:@" " encontrado:encontrado fechaHora:@"12345"];
+                    
+            //        [competenciaDAO insertaCompetencia:idcompetencia idLista:idlistav idShopper:idshopper nombreCompetencia:nombreCompetencia];
+                    
+                    
                 }
             }
             
@@ -404,6 +426,7 @@ static NSString *kCompetencias = @"competenciasAsignada";
         }
         elemento = @"";
     }
+   /*
     else if ([elemento isEqualToString:@"nombreLista"])
     {
         idUsuario=1;
@@ -411,12 +434,12 @@ static NSString *kCompetencias = @"competenciasAsignada";
         Listas *listas = [[Listas alloc] init];
 		listas.listaID = 1;
 		listas.nombreLista = string;
-		listas.competenciaID = 1;
+	//	listas.competenciaID = 1;
 		
 		[lista addObject:listas];
         elemento=@"";
   
-    }
+    }*/
 }
 
 

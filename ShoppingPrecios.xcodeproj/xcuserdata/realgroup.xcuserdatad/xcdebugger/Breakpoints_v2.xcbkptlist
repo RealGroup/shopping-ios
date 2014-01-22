@@ -111,8 +111,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
             endingLineNumber = "32"
-            landmarkName = "@implementation ListasViewController"
-            landmarkType = "3">
+            landmarkName = "-initWithNibName:bundle:"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -127,23 +127,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
             endingLineNumber = "48"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingPrecios/ListasViewController.m"
-            timestampString = "411943459.605082"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "-viewDidLoad"
+            landmarkName = "-viewWillAppear:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -159,24 +143,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
             endingLineNumber = "55"
-            landmarkName = "-viewDidUnload"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingPrecios/ListasViewController.m"
-            timestampString = "411943459.605082"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "-viewWillAppear:"
-            landmarkType = "5">
+            landmarkName = "@implementation ListasViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -282,12 +250,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/ListasViewController.m"
-            timestampString = "411943459.605082"
+            timestampString = "412033837.469982"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "-shouldAutorotateToInterfaceOrientation:"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -298,12 +266,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/ListasViewController.m"
-            timestampString = "411943459.605082"
+            timestampString = "412033837.469982"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "-viewWillAppear:"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -362,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -378,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "187"
-            endingLineNumber = "187"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -394,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -410,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -442,11 +410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "167"
-            endingLineNumber = "167"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -458,11 +426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -474,11 +442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -490,11 +458,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -506,11 +474,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -522,11 +490,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -538,11 +506,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/UsuarioDAO.m"
-            timestampString = "411942598.288614"
+            timestampString = "412027885.783087"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "-insertaUsuario:nombreUsuario:loginUsuario:clave:"
             landmarkType = "5">
          </BreakpointContent>
@@ -550,15 +518,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/CompetenciaViewController.m"
-            timestampString = "411943444.277149"
+            timestampString = "412038822.383363"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -570,11 +538,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411949871.576549"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "233"
-            endingLineNumber = "233"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -586,13 +554,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/ListasViewController.m"
-            timestampString = "411943734.718681"
+            timestampString = "412033837.469982"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "-tableView:didSelectRowAtIndexPath:"
-            landmarkType = "5">
+            startingLineNumber = "146"
+            endingLineNumber = "146">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -602,11 +568,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411953370.367667"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "237"
-            endingLineNumber = "237"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
             <Locations>
@@ -648,11 +614,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411953370.367667"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "257"
-            endingLineNumber = "257"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -664,11 +630,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411953370.367667"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "253"
-            endingLineNumber = "253"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -680,11 +646,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411953370.367667"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "265"
-            endingLineNumber = "265"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -696,11 +662,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/CompetenciaDAO.m"
-            timestampString = "411949999.404936"
+            timestampString = "412038822.383363"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "-insertaCompetencia:idLista:idShopper:nombreCompetencia:"
             landmarkType = "5">
          </BreakpointContent>
@@ -728,11 +694,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411953370.367667"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "273"
-            endingLineNumber = "273"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -744,11 +710,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411953370.367667"
+            timestampString = "412014323.506021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "267"
-            endingLineNumber = "267"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -760,11 +726,75 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411953370.367667"
+            timestampString = "412027885.783087"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "340"
-            endingLineNumber = "340"
+            startingLineNumber = "356"
+            endingLineNumber = "356"
+            landmarkName = "-validaUsuario:withDataString:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/WebService.m"
+            timestampString = "412027885.783087"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
+            landmarkName = "-validaUsuario:withDataString:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/ProductoDAO.m"
+            timestampString = "412014358.110715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-insertaProducto:idCompetencia:idLista:codigoProducto:nombreProducto:descripcionProducto:precioAnterior:precioSodimac:precioActual:mismoPrecio:observacion:encontrado:fechaHora:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/ProductoDAO.m"
+            timestampString = "412027954.306341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-insertaProducto:idCompetencia:idLista:codigoProducto:nombreProducto:descripcionProducto:precioAnterior:precioSodimac:precioActual:mismoPrecio:observacion:encontrado:fechaHora:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/WebService.m"
+            timestampString = "412027968.370142"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "358"
+            endingLineNumber = "358"
             landmarkName = "-validaUsuario:withDataString:"
             landmarkType = "5">
          </BreakpointContent>
@@ -775,13 +805,189 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ShoppingPrecios/WebService.m"
-            timestampString = "411953370.367667"
+            filePath = "ShoppingPrecios/ProductoDAO.m"
+            timestampString = "412027975.962563"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "336"
-            endingLineNumber = "336"
-            landmarkName = "-validaUsuario:withDataString:"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-insertaProducto:idCompetencia:idLista:codigoProducto:nombreProducto:descripcionProducto:precioAnterior:precioSodimac:precioActual:mismoPrecio:observacion:encontrado:fechaHora:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/ProductoDAO.m"
+            timestampString = "412028134.861908"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-insertaProducto:idCompetencia:idLista:codigoProducto:nombreProducto:descripcionProducto:precioAnterior:precioSodimac:precioActual:mismoPrecio:observacion:encontrado:fechaHora:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/ListasViewController.m"
+            timestampString = "412033863.131351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/ListasViewController.m"
+            timestampString = "412034663.276465"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/CompetenciaDAO.m"
+            timestampString = "412038542.953442"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-obtenerCompetencias:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/CompetenciaViewController.m"
+            timestampString = "412039590.77981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/CompetenciaDAO.m"
+            timestampString = "412038853.537701"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-obtenerCompetencias:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/CompetenciaViewController.m"
+            timestampString = "412039590.77981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/CompetenciaViewController.m"
+            timestampString = "412039590.77981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/CompetenciaViewController.m"
+            timestampString = "412039571.976221"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-tableView:numberOfRowsInSection:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/ListasViewController.m"
+            timestampString = "412039699.821356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingPrecios/ListasViewController.m"
+            timestampString = "412039717.08075"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

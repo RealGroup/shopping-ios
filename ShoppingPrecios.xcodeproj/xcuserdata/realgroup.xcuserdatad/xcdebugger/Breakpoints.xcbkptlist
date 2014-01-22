@@ -104,7 +104,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "63"
          endingLineNumber = "63"
-         landmarkName = "-viewWillAppear:"
+         landmarkName = "-numberOfSectionsInTableView:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -117,8 +117,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "55"
          endingLineNumber = "55"
-         landmarkName = "-viewDidUnload"
-         landmarkType = "5">
+         landmarkName = "@implementation ListasViewController"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -130,7 +130,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "77"
          endingLineNumber = "77"
-         landmarkName = "-shouldAutorotateToInterfaceOrientation:"
+         landmarkName = "-tableView:cellForRowAtIndexPath:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -364,7 +364,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "43"
          endingLineNumber = "43"
-         landmarkName = "-viewDidLoad"
+         landmarkName = "-viewDidUnload"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -702,8 +702,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "60"
          endingLineNumber = "60"
-         landmarkName = "-viewWillAppear:"
-         landmarkType = "5">
+         landmarkName = "@implementation ListasViewController"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
@@ -715,7 +715,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "76"
          endingLineNumber = "76"
-         landmarkName = "-shouldAutorotateToInterfaceOrientation:"
+         landmarkName = "-tableView:cellForRowAtIndexPath:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -728,7 +728,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "84"
          endingLineNumber = "84"
-         landmarkName = "-numberOfSectionsInTableView:"
+         landmarkName = "-tableView:cellForRowAtIndexPath:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -767,7 +767,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "54"
          endingLineNumber = "54"
-         landmarkName = "-viewDidUnload"
+         landmarkName = "-viewWillAppear:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -780,7 +780,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "89"
          endingLineNumber = "89"
-         landmarkName = "-tableView:numberOfRowsInSection:"
+         landmarkName = "-tableView:cellForRowAtIndexPath:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint

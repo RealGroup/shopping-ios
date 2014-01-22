@@ -18,6 +18,7 @@
 		7A572712188EB7B900B5E24A /* Producto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A572711188EB7B900B5E24A /* Producto.m */; };
 		7A572715188EB7CF00B5E24A /* ProductoDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A572714188EB7CF00B5E24A /* ProductoDAO.m */; };
 		7A6478D01889A5DA00F345BE /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6478CF1889A5DA00F345BE /* WebService.m */; };
+		7A7469DA188F095900DF1A46 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7469D9188F095900DF1A46 /* CustomCell.xib */; };
 		7AA252971886F51C004ABEB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA252961886F51C004ABEB1 /* UIKit.framework */; };
 		7AA252991886F51C004ABEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA252981886F51C004ABEB1 /* Foundation.framework */; };
 		7AA2529B1886F51C004ABEB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA2529A1886F51C004ABEB1 /* CoreGraphics.framework */; };
@@ -58,6 +59,7 @@
 		7A572714188EB7CF00B5E24A /* ProductoDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductoDAO.m; sourceTree = "<group>"; };
 		7A6478CE1889A5DA00F345BE /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
 		7A6478CF1889A5DA00F345BE /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		7A7469D9188F095900DF1A46 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		7AA252931886F51C004ABEB1 /* ShoppingPrecios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingPrecios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA252961886F51C004ABEB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7AA252981886F51C004ABEB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -220,6 +222,7 @@
 				7AA252A61886F51C004ABEB1 /* ShoppingPreciosAppDelegate.m */,
 				7AA252AE1886F51C004ABEB1 /* MainStoryboard.storyboard */,
 				7AA2529D1886F51C004ABEB1 /* Supporting Files */,
+				7A7469D9188F095900DF1A46 /* CustomCell.xib */,
 			);
 			path = ShoppingPrecios;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7469DA188F095900DF1A46 /* CustomCell.xib in Resources */,
 				7AA252A11886F51C004ABEB1 /* InfoPlist.strings in Resources */,
 				7AA252A91886F51C004ABEB1 /* Default.png in Resources */,
 				7AA252AB1886F51C004ABEB1 /* Default@2x.png in Resources */,

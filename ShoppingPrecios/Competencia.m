@@ -14,5 +14,5 @@
 @synthesize idLista;
 @synthesize idShopper;
 @synthesize nombreCompetencia;
-
+@synthesize cantidad;
 @end

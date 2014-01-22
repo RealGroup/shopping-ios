@@ -19,15 +19,14 @@
     dbManager = [[DBManager alloc] init];
     
    NSString *ubicacionDB = [dbManager obtenerRutaBD];
-    
-//    NSString *ubicacionDB = [self obtenerRutaBD];
+
 	
 	if(!(sqlite3_open([ubicacionDB UTF8String], &bd) == SQLITE_OK))
     {
 		NSLog(@"No se puede conectar con la BD");
 	}
-    //login_usuario, clave FROM sesion_usuario
-	NSString *insertSQL = [NSString stringWithFormat:@"INSERT INTO sesion_usuario (id_usuario, nombre_usuario, login_usuario, clave) VALUES (%@, \"%@\", \"%@\", \"%@\")",idUsuario, nombreUsuario, loginUsuario, clave];
+	
+    NSString *insertSQL = [NSString stringWithFormat:@"INSERT INTO sesion_usuario (id_usuario, nombre_usuario, login_usuario, clave) VALUES (%@, \"%@\", \"%@\", \"%@\")",idUsuario, nombreUsuario, loginUsuario, clave];
     
     const char *insert_stmt = [insertSQL UTF8String];
     
@@ -44,11 +43,10 @@
     }
     else
     {
-        //  self.mensaje.text = @"Error ";
+        return NO;
     }
     
     sqlite3_finalize(sqlStatement);
-    
     sqlite3_close(bd);
     
     

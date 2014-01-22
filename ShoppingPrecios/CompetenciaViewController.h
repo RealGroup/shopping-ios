@@ -8,12 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "Listas.h"
+#import "CompetenciaDAO.h"
 
 @interface CompetenciaViewController : UITableViewController
 {
     Listas *lista;
+    CompetenciaDAO *competenciaDAO;
+    NSMutableArray *competencias;
+    
 }
 
 @property (nonatomic, strong) Listas *lista;
+@property (nonatomic,strong) CompetenciaDAO *competenciaDAO;
+@property (nonatomic, strong) NSMutableArray *competencias;
 
 @end

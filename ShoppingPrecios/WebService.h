@@ -9,13 +9,15 @@
 #import <Foundation/Foundation.h>
 #import "ListasDAO.h"
 #import "CompetenciaDAO.h"
+#import "ProductoDAO.h"
 
 @interface WebService : NSObject <NSXMLParserDelegate>
 
 - (NSMutableArray *) obtenerListas;
 - (BOOL)validaUsuario:(NSString*)usuario withDataString:(NSString *)clave;
 
-@property (nonatomic, strong) ListasDAO *listasDAO;
-@property (nonatomic, strong) CompetenciaDAO *competenciaDAO;
+@property (nonatomic, strong)ListasDAO *listasDAO;
+@property (nonatomic, strong)CompetenciaDAO *competenciaDAO;
+@property (nonatomic, strong)ProductoDAO *productoDAO;
 
 @end

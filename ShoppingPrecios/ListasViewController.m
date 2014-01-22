@@ -24,7 +24,8 @@ NSInteger offline=0;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
+    if (self)
+    {
         // Custom initialization
     }
     return self;
@@ -32,21 +33,11 @@ NSInteger offline=0;
 
 - (void)viewDidLoad
 {
- //   if(offline)
-  //  {
-        dao = [[ListasDAO alloc] init];
-        listas = [[NSMutableArray alloc] init];
-        listas = [dao obtenerListas];
-//	}
- //   else
- //   {
-  //      webservice = [[WebService alloc] init];
-  //      listas = [[NSMutableArray alloc] init];
-  //      listas = [webservice obtenerListas];
-  //  }
+    dao = [[ListasDAO alloc] init];
+    listas = [[NSMutableArray alloc] init];
+    listas = [dao obtenerListas];
     
     [super viewDidLoad];
-
 }
 
 - (void)viewDidUnload
@@ -57,21 +48,8 @@ NSInteger offline=0;
 - (void) viewWillAppear:(BOOL)animated
 {
 	listas = [[NSMutableArray alloc] init];
-    
- //   if(offline)
-//    {
-    
     listas = [dao obtenerListas];
     
-  /*
-    }
-    else
-    {
-    //    webservice = [[WebService alloc] init];
-    //       listas = [[NSMutableArray alloc] init];
-            listas = [webservice obtenerListas];
-            
-    }*/
 	[self.tableView reloadData];
 }
 
@@ -94,6 +72,7 @@ NSInteger offline=0;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    /*
     static NSString *CellIdentifier = @"celda";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
@@ -101,6 +80,39 @@ NSInteger offline=0;
     
     cell.textLabel.text = nombre ;
 	
+    return cell;
+     */
+    
+    static NSString *CellIdentifier = @"celda";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    // Configure the cell...
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    // Display recipe in the table cell
+    NSInteger xx = indexPath.row;
+    Listas *lista = [listas objectAtIndex:xx];
+    
+ //   UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
+//    recipeImageView.image = [UIImage imageNamed:listas.imageFile];
+    
+    UILabel *nombreLista = (UILabel *)[cell viewWithTag:101];
+    nombreLista.text = lista.nombreLista;
+    
+    UILabel *cantidad = (UILabel *)[cell viewWithTag:102];
+    cantidad.text = lista.cantidad;
+    
+    // Assign our own background image for the cell
+//    UIImage *background = [self cellBackgroundForRowAtIndexPath:indexPath];
+    
+  //  UIImageView *cellBackgroundView = [[UIImageView alloc] initWithImage:background];
+ //   cellBackgroundView.image = background;
+   // cell.backgroundView = cellBackgroundView;
+    
     return cell;
 }
  
@@ -110,6 +122,7 @@ NSInteger offline=0;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	CompetenciaViewController *destino = [self.storyboard instantiateViewControllerWithIdentifier:@"competencias"];
+    
 	Listas *tmp = [listas objectAtIndex:[indexPath row]];
 	destino.lista = tmp;
 	

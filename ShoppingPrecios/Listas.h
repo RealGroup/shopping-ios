@@ -12,13 +12,12 @@
 {
 	NSInteger listaID;
 	NSString *nombreLista;
-	NSInteger competenciaID;
+	NSString *cantidad;
 }
 
 @property (nonatomic, assign) NSInteger listaID;
 @property (nonatomic, retain) NSString *nombreLista;
-@property (nonatomic, assign) NSInteger competenciaID;
-
+@property (nonatomic, retain) NSString *cantidad;
 
 @end
 

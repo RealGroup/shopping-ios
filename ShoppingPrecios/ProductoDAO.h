@@ -18,6 +18,9 @@
 
 @property (nonatomic, strong)DBManager *dbManager;
 
--(BOOL)insertaProducto:(NSString *)idProducto idCompetencia:(NSString *)idCompetencia idLista:(NSString *)idLista codigoProducto:(NSString *)codigoProducto nombreProducto:(NSString *)nombreProducto descripcionProducto:(NSString *)descripcionProducto precioAnterior:(NSInteger)precioAnterior precioActual:(NSInteger)precioActual mismoPrecio:(NSInteger)mismoPrecio observacion:(NSString *)observacion encontrado:(NSInteger)encontrado fechaHora:(NSInteger)fechaHora;
+-(BOOL)insertaProducto:(NSString *)idProducto idCompetencia:(NSString *)idCompetencia idLista:(NSString *)idLista
+        codigoProducto:(NSString *)codigoProducto nombreProducto:(NSString *)nombreProducto descripcionProducto:(NSString *)descripcionProducto
+        precioAnterior:(NSString *)precioAnterior precioSodimac:(NSString *)precioSodimac precioActual:(NSString *)precioActual mismoPrecio:(NSString *)mismoPrecio
+           observacion:(NSString *)observacion encontrado:(NSString *)encontrado fechaHora:(NSString *)fechaHora;
 
 @end

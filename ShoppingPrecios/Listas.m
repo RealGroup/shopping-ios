@@ -10,9 +10,8 @@
 
 @implementation Listas
 
-
 @synthesize listaID;
 @synthesize nombreLista;
-@synthesize competenciaID;
+@synthesize cantidad;
 
 @end

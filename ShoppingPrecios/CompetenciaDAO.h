@@ -19,6 +19,6 @@
 @property (nonatomic, strong)DBManager *dbManager;
 
 -(BOOL)insertaCompetencia:(NSString *)idCompetencia idLista:(NSString *)idLista idShopper:(NSString *)idShopper nombreCompetencia:(NSString *)nombreCompetencia;
-
+- (NSMutableArray *) obtenerCompetencias:(NSInteger)idLista;
 
 @end

@@ -14,11 +14,12 @@
     NSInteger idLista;
     NSInteger idShopper;
     NSString  *nombrecompetencia;
+    NSString  *cantidad;
 }
 @property (nonatomic, assign)NSInteger idCompetencia;
 @property (nonatomic, assign)NSInteger idLista;
 @property (nonatomic, assign)NSInteger idShopper;
 @property (nonatomic, retain)NSString *nombreCompetencia;
-
+@property (nonatomic, retain)NSString *cantidad;
 
 @end
