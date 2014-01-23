@@ -9,6 +9,7 @@
 #import "ProductosViewController.h"
 #import "ProductoDAO.h"
 #import "Producto.h"
+#import "DetalleProducto.h"
 
 @interface ProductosViewController ()
 
@@ -23,7 +24,9 @@
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
-    if (self) {
+    
+    if (self)
+    {
         // Custom initialization
     }
     return self;
@@ -95,6 +98,7 @@
     
     
     UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
+    
     if(producto.encontrado>0)
     {
        recipeImageView.image = [UIImage imageNamed:@"shoppeado.png"];
@@ -107,8 +111,8 @@
     UILabel *nombreProducto = (UILabel *)[cell viewWithTag:105];
     nombreProducto.text = producto.nombreProducto;
     
- //   UILabel *cantidad = (UILabel *)[cell viewWithTag:104];
-   // cantidad.text = competencia.cantidad;
+    //   UILabel *cantidad = (UILabel *)[cell viewWithTag:104];
+    // cantidad.text = competencia.cantidad;
     
     // Assign our own background image for the cell
     //    UIImage *background = [self cellBackgroundForRowAtIndexPath:indexPath];
@@ -126,13 +130,21 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    ProductosViewController *destino = [self.storyboard instantiateViewControllerWithIdentifier:@"detalleproducto"];
+  //  ProductosViewController *destino = [self.storyboard instantiateViewControllerWithIdentifier:@"detalleproducto"];
+    DetalleProducto *destino = [self.storyboard instantiateViewControllerWithIdentifier:@"detalleproducto"];
     
-//	Competencia *tmp = [competencias objectAtIndex:[indexPath row]];
- //   tmp.idLista =  lista.listaID;
+	Competencia *tmp = competencia;
     
-	//destino.competencia = tmp;
-	
+    //  competencia.
+    //  tmp.producto =  [productos objectAtIndex:[indexPath row]];
+    
+    Producto *producto = [productos objectAtIndex:[indexPath row]];
+    
+  //  tmp.idLista =  lista.listaID;
+    
+	destino.competencia = tmp;
+	destino.producto = producto;
+    
 	[self.navigationController pushViewController:destino animated:YES];
     
 }

@@ -14,10 +14,17 @@
 
 @implementation DetalleProducto
 
+@synthesize competencia;
+@synthesize productoDAO;
+@synthesize productos;
+@synthesize producto;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
+    
+    if (self)
+    {
         // Custom initialization
     }
     return self;
@@ -25,6 +32,22 @@
 
 - (void)viewDidLoad
 {
+    NSInteger idLista = competencia.idLista;
+    NSInteger idCompetencia = competencia.idCompetencia;
+  //  Producto *product = producto;
+    
+    productoDAO = [[ProductoDAO alloc] init];
+    productos = [[NSMutableArray alloc] init];
+    productos = [productoDAO listaProductos:idCompetencia idLista:idLista];
+    
+    _precioSodimac.text = [NSString stringWithFormat:@"%d", producto.precioSodimac ];
+    _codigoProducto.text = producto.codigoProducto;
+    _nombreProducto.text = producto.nombreProducto;
+    _trabajado.on = producto.encontrado;
+    
+    
+ //   producto.precioSodimac;
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }

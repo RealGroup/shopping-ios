@@ -100,6 +100,10 @@
     UILabel *nombreLista = (UILabel *)[cell viewWithTag:103];
     nombreLista.text = competencia.nombreCompetencia;
     
+    UILabel *Listax = (UILabel *)[cell viewWithTag:100];
+    Listax.text = competencia.nombreCompetencia;
+    
+    
     UILabel *cantidad = (UILabel *)[cell viewWithTag:104];
     cantidad.text = competencia.cantidad;
     
@@ -120,7 +124,7 @@
 {
   
     ProductosViewController *destino = [self.storyboard instantiateViewControllerWithIdentifier:@"product"];
-    
+
 	Competencia *tmp = [competencias objectAtIndex:[indexPath row]];
     tmp.idLista =  lista.listaID;
         
@@ -130,4 +134,31 @@
     
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    
+    
+    if(section == 0)
+        return @"Competencias";
+    else
+        return @"Listas";
+}
+/*
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+//    return headerView;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 30.0;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
+{
+//    return footerView;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+  //  return 30.0;
+}*/
 @end

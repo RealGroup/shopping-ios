@@ -97,8 +97,8 @@ NSInteger offline=0;
     NSInteger xx = indexPath.row;
     Listas *lista = [listas objectAtIndex:xx];
     
- //   UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
-//    recipeImageView.image = [UIImage imageNamed:listas.imageFile];
+ // UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
+ // recipeImageView.image = [UIImage imageNamed:listas.imageFile];
     
     UILabel *nombreLista = (UILabel *)[cell viewWithTag:101];
     nombreLista.text = lista.nombreLista;

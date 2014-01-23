@@ -18,7 +18,7 @@
 
     dbManager = [[DBManager alloc] init];
     
-   NSString *ubicacionDB = [dbManager obtenerRutaBD];
+    NSString *ubicacionDB = [dbManager obtenerRutaBD];
 
 	
 	if(!(sqlite3_open([ubicacionDB UTF8String], &bd) == SQLITE_OK))

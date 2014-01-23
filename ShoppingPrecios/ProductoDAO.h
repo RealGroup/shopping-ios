@@ -25,4 +25,7 @@
 
 -(NSMutableArray *)listaProductos:(NSInteger)idCompetencia idLista:(NSInteger)idLista;
 
+-(NSMutableArray *)listaProductosXListaComp:(NSInteger)idLista idCompetencia:(NSInteger)idCompetencia;
+
+
 @end
